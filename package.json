@@ -1,16 +1,19 @@
 {
   "name": "com.sumit.first.cordova.app",
   "displayName": "First Cordova App",
-  "version": "1.0.0",
-  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "version": "1.0.1",
+  "description": "First Cordova Application with iOS and browser platform",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cordova run ios",
+    "start:browser": "cordova run browser",
+    "build": "cordova build ios",
+    "build:browser": "cordova build browser"
   },
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
+  "author": "Sumit Prasad",
   "license": "Apache-2.0",
   "devDependencies": {
     "cordova-browser": "^7.0.0",
